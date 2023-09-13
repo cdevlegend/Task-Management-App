@@ -13,7 +13,7 @@ import useTask from "src/hooks/useTask";
 
 const useStyles = makeStyles({
   table: {
-    minWidth: 650,
+    minWidth: 700,
     "& .MuiTableCell-root": {
       border: "2px solid gray !important",
     },
@@ -46,7 +46,7 @@ export default function TaskTable() {
       <Table
         className={classes.table}
         sx={{ minWidth: 650 }}
-        aria-label="simple table"
+        aria-label="table"
       >
         <TableHead>
           <TableRow>

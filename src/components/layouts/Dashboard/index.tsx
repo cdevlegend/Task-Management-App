@@ -59,7 +59,7 @@ const DashboardLayout = () => {
         <TextField
           className="w-300"
           control={control}
-          label="Task time"
+          label="Task required(in Hrs)"
           type="number"
           name="time"
         />
