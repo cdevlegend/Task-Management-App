@@ -3,7 +3,7 @@ export const getTaskValue = (id: number, count: number, time: number) => {
     case 1:
       return count;
     case 2:
-      return Math.ceil(time / 8);
+      return Number((time / 8).toFixed(2));
     default:
       return time;
   }
