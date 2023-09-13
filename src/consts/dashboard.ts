@@ -12,3 +12,8 @@ export const TaskStatusTypeList = [
     title: "Total Hours",
   },
 ];
+
+export const TaskAddFormDefaultValues = {
+  title: "",
+  time: 0,
+};

@@ -1,12 +1,10 @@
-import { InitialTaskStateType } from "src/types/dashboard";
-
-export const getTaskValue = (id: number, task: InitialTaskStateType) => {
+export const getTaskValue = (id: number, count: number, time: number) => {
   switch (id) {
     case 1:
-      return task.count;
+      return count;
     case 2:
-      return Math.ceil(task.time / 8);
+      return Math.ceil(time / 8);
     default:
-      return task.time;
+      return time;
   }
 };
